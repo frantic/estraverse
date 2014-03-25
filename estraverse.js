@@ -226,7 +226,15 @@
         VariableDeclarator: ['id', 'init'],
         WhileStatement: ['test', 'body'],
         WithStatement: ['object', 'body'],
-        YieldExpression: ['argument']
+        YieldExpression: ['argument'],
+        XJSIdentifier: [],
+        XJSEmptyExpression: [],
+        XJSExpressionContainer: ['expression'],
+        XJSElement: ['openingElement', 'closingElement', 'children'],
+        XJSClosingElement: [],
+        XJSOpeningElement: ['name', 'attributes'],
+        XJSAttribute: ['value'],
+        XJSText: []
     };
 
     // unique id
