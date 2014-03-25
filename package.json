@@ -1,5 +1,5 @@
 {
-  "name": "estraverse",
+  "name": "estraverse-jsx",
   "description": "ECMAScript JS AST traversal functions",
   "homepage": "https://github.com/Constellation/estraverse",
   "main": "estraverse.js",
@@ -9,11 +9,16 @@
   },
   "maintainers": [
     {
-      "name": "Yusuke Suzuki",
-      "email": "utatane.tea@gmail.com",
-      "web": "http://github.com/Constellation"
+      "name": "Andrey Popp",
+      "email": "8mayday@gmail.com",
+      "web": "http://github.com/andreypopp"
     }
   ],
+  "author": {
+    "name": "Yusuke Suzuki",
+    "email": "utatane.tea@gmail.com",
+    "web": "http://github.com/Constellation"
+  },
   "repository": {
     "type": "git",
     "url": "http://github.com/Constellation/estraverse.git"
