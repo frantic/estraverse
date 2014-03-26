@@ -217,6 +217,7 @@
         SequenceExpression: ['expressions'],
         SwitchStatement: ['discriminant', 'cases'],
         SwitchCase: ['test', 'consequent'],
+        TemplateLiteral: ['expressions'],
         ThisExpression: [],
         ThrowStatement: ['argument'],
         TryStatement: ['block', 'handlers', 'handler', 'guardedHandlers', 'finalizer'],
