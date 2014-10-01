@@ -218,6 +218,7 @@
         SwitchStatement: ['discriminant', 'cases'],
         SwitchCase: ['test', 'consequent'],
         TemplateLiteral: ['expressions'],
+        TaggedTemplateExpression: ['expressions'],
         ThisExpression: [],
         ThrowStatement: ['argument'],
         TryStatement: ['block', 'handlers', 'handler', 'guardedHandlers', 'finalizer'],
@@ -229,12 +230,14 @@
         WithStatement: ['object', 'body'],
         YieldExpression: ['argument'],
         XJSIdentifier: [],
+        XJSNamespacedName: ['namespace', 'name'],
+        XJSMemberExpression: ['object', 'property'],
         XJSEmptyExpression: [],
         XJSExpressionContainer: ['expression'],
         XJSElement: ['openingElement', 'closingElement', 'children'],
-        XJSClosingElement: [],
+        XJSClosingElement: ['name'],
         XJSOpeningElement: ['name', 'attributes'],
-        XJSAttribute: ['value'],
+        XJSAttribute: ['name', 'value'],
         XJSText: []
     };
 

@@ -1,5 +1,5 @@
 {
-  "name": "estraverse-jsx",
+  "name": "estraverse",
   "description": "ECMAScript JS AST traversal functions",
   "homepage": "https://github.com/Constellation/estraverse",
   "main": "estraverse.js",
